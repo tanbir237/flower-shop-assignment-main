@@ -1,5 +1,10 @@
 /* Common text style */
 
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
 body {
     font-family: 'Lato'
 
@@ -115,4 +120,40 @@ body {
     font-size: 24px;
     text-decoration-line: underline;
     margin-top: 40px;
+}
+
+
+/* Section-2 styles */
+
+.section-2{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    background: rgba(229, 84, 115, 0.05);
+    padding:230px 500px 230px 300px ;
+    margin-top: 300px;
+    gap: 0px;
+}
+
+.sec-2-heading{
+    color: #272727;
+
+font-size: 40px;
+
+font-weight: 800;
+
+}
+
+.sec-2-text{
+    color: rgba(39, 39, 39, 0.60);
+
+
+font-size: 18px;
+
+font-weight: 400;
+line-height: 30px;
+}
+
+.span-text{
+    color: #E55473;
 }
