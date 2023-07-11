@@ -10,7 +10,7 @@ body {
 .website-banner {
 
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
     background: rgba(229, 84, 115, 0.10);
     padding: 150px 240px 0px 240px;
@@ -21,7 +21,7 @@ body {
 .web-banner-content {
 
     max-width: 500px;
-
+    text-align: left;
 }
 
 .banner-heading {
@@ -56,4 +56,63 @@ body {
     margin-top: 0;
 
 
+}
+
+/* Feature-flower section style */
+
+.Featured-Flowers-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 180px;
+    margin-bottom: 0px;
+
+}
+
+
+.Featured-Flowers-text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.flower-pictures {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+
+}
+
+.picture-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 100px 70px 0px 74px;
+
+
+}
+
+.picture-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 110px 40px 50px 40px;
+}
+
+.picture-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 60px 70px 0px 70px;
+}
+
+.pic-cp {
+    color: #272727;
+    text-align:center;
+    font-size: 24px;
+    text-decoration-line: underline;
+    margin-top: 40px;
 }
