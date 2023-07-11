@@ -186,8 +186,73 @@ body {
     margin-bottom: 40px;
 }
 
-.pics-3{
+.pics-3 {
     display: flex;
     justify-content: center;
     gap: 18px;
+    margin-bottom: 120px;
 }
+
+/* section-4 style */
+
+.section-4 {
+    text-align: center;
+    margin-top: 110px;
+
+}
+
+.sec-4-content {
+    background-image: url('./Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 120px;
+    border-radius: 8px;
+
+}
+
+.sec-4-heading {
+    color: #272727;
+
+    font-size: 40px;
+
+    font-weight: 800;
+    padding: 110px 100px 0px 100px;
+
+}
+
+.sec-4-text {
+    padding: 16px 100px 48px 100px;
+    color: rgba(39, 39, 39, 0.60);
+
+
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 30px;
+    
+}
+
+.email-info{
+    padding: 0px 100px 180px 100px;
+    
+
+}
+
+.sec-4-btn{
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    padding: 15px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700px;
+    margin-top: 0;
+
+}
+
+.Enter-your-email{
+    padding: 22px 500px 22px 22px;
+    border-radius: 8px;
+    border: none;
+}
+
