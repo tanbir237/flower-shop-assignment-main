@@ -105,7 +105,7 @@ body {
 .picture-2 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    padding: 110px 40px 50px 40px;
+    padding: 110px 40px 0px 40px;
 }
 
 .picture-3 {
@@ -133,6 +133,7 @@ body {
     padding: 230px 500px 230px 300px;
     margin-top: 300px;
     gap: 0px;
+    align-items: center;
 }
 
 .sec-2-heading {
@@ -159,7 +160,7 @@ body {
     color: #E55473;
 }
 
-.sec-2-btn{
+.sec-2-btn {
     border-radius: 8px;
     background: #E55473;
     border: 0;
@@ -168,7 +169,7 @@ body {
     font-size: 20px;
     font-weight: 700px;
     margin-top: 22px;
-    
+
 
 }
 
@@ -313,18 +314,20 @@ body {
 /* creative style */
 
 
-    .creative-1{
-        display: flex;
-        text-align: center;
-        justify-content: space-evenly;
-        background: rgba(229, 84, 115, 0.05);
-        padding: 230px 500px 230px 300px;
-        margin-top: 300px;
-        gap: 0px;
-    }
-    
+.creative-1 {
 
-.creative-heading{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 300px;
+    align-items: center;
+    gap: 70px;
+    padding: 230px 240px 230px 240px;
+}
+
+
+.creative-heading {
     color: #272727;
 
     font-size: 40px;
@@ -333,7 +336,7 @@ body {
 
 }
 
-.creative-text{
+.creative-text {
 
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -345,7 +348,7 @@ body {
 
 }
 
-.creative-btn{
+.creative-btn {
     border-radius: 8px;
     background: #E55473;
     border: 0;
@@ -355,4 +358,10 @@ body {
     font-weight: 700px;
     margin-top: 0%;
     cursor: pointer;
+}
+
+.creative-img {
+    width: 750px;
+
+
 }
