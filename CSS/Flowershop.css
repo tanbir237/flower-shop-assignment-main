@@ -1,6 +1,6 @@
 /* Common text style */
 
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
@@ -89,7 +89,7 @@ body {
 .flower-pictures {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 18px;
 
 
 }
@@ -116,7 +116,7 @@ body {
 
 .pic-cp {
     color: #272727;
-    text-align:center;
+    text-align: center;
     font-size: 24px;
     text-decoration-line: underline;
     margin-top: 40px;
@@ -125,35 +125,69 @@ body {
 
 /* Section-2 styles */
 
-.section-2{
+.section-2 {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
     background: rgba(229, 84, 115, 0.05);
-    padding:230px 500px 230px 300px ;
+    padding: 230px 500px 230px 300px;
     margin-top: 300px;
     gap: 0px;
 }
 
-.sec-2-heading{
+.sec-2-heading {
     color: #272727;
 
-font-size: 40px;
+    font-size: 40px;
 
-font-weight: 800;
+    font-weight: 800;
 
 }
 
-.sec-2-text{
+.sec-2-text {
     color: rgba(39, 39, 39, 0.60);
 
 
-font-size: 18px;
+    font-size: 18px;
 
-font-weight: 400;
-line-height: 30px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
-.span-text{
+.span-text {
     color: #E55473;
+}
+
+/* section-3 style */
+
+.section-3 {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.sec-3-heading {
+    color: #272727;
+
+    font-size: 40px;
+
+    font-weight: 800;
+    margin-bottom: 18px;
+
+}
+
+.sec-3-text {
+    color: rgba(39, 39, 39, 0.60);
+
+
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.pics-3{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
 }
